@@ -2,6 +2,7 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+<<<<<<< HEAD
     extend: {
       fontFamily: {
         zentry: ["zentry", "sans-serif"],
@@ -27,6 +28,9 @@ export default {
         },
       },
     },
+=======
+    extend: {},
+>>>>>>> a9243e59aae6913c30bbb8bf0e945cdf2dc8caf3
   },
   plugins: [],
 }
