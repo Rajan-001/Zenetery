@@ -7,7 +7,7 @@ export function Button({ title, id, rightIcon, leftIcon, containerClass }) {
         `}
     >
       {leftIcon}
-      <span className="relative incline-flex overflow-hidden font-general text-xs upperCase">
+      <span className="relative inline-flex overflow-hidden font-general text-xs uppercase">
         <div>{title}</div>
       </span>
     </button>
