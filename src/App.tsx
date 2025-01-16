@@ -1,5 +1,6 @@
 import { useState } from "react"
 
+import "./App.css"
 import { Hero } from "./component/Hero"
 import { About } from "./component/About"
 import { Navbar } from "./component/Navbar"
@@ -12,6 +13,7 @@ function App() {
       <About />
     </main>
   )
+
 }
 
 export default App

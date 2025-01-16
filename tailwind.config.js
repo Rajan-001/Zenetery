@@ -2,6 +2,9 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+<<<<<<<<< Temporary merge branch 1
+    extend: {},
+=========
     extend: {
       fontFamily: {
         zentry: ["zentry", "sans-serif"],
@@ -27,6 +30,7 @@ export default {
         },
       },
     },
+>>>>>>>>> Temporary merge branch 2
   },
   plugins: [],
 }
